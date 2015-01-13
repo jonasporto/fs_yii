@@ -1,13 +1,13 @@
 <?php
 
+
+
 class EstabelecimentoTest extends CDbTestCase
 {
 	private $controller;
 
 	public function setUp(){
 
-		Yii::import('application.controllers.*');
-		
 		$this->controller = new EstabelecimentoController('Estabelecimento');
         $this->controller->init();
 
